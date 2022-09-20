@@ -114,7 +114,8 @@
     padding-left: 45px;
     padding-right: 45px;
     column-gap: 100px;
-    border-bottom:10px  solid #343131;  ;
+    border-bottom:10px  solid #343131; 
+    flex-wrap: wrap;
 }
 .view_port_Two_Text > h1 {
     font-size: 3.125rem;
@@ -149,3 +150,10 @@
      
 }
 
+
+ /* view port Three */
+
+.Welcome_viewport_Three{
+    position: relative;
+    background-color: black;
+}

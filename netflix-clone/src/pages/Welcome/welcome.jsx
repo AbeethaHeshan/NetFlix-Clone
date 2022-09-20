@@ -5,7 +5,7 @@ import './welcome.css'
 import { Container } from "../../components/common/container/contatiner";
 import TextField from '@mui/material/TextField';
 import TV from '../../assets/images/tv.png'
-
+import Mobile from '../../assets/images/mobile.jpg'
 
 
 export  const Welcome = () => {
@@ -67,6 +67,25 @@ export  const Welcome = () => {
                              
                       </Container>   
 
+                </Container>
+
+
+
+                <Container className="Welcome_viewport_Three">
+
+                    <Container className="wrap_Container_Viewport_Two"> 
+                                <Container className="Image_Con">
+                                    
+                                        <img src={Mobile} alt="movile"/>
+                                            
+                                </Container>
+
+                                <Container className="view_port_Two_Text">
+                                         <h1>Download your shows <br/> to watch offline.</h1>
+                                         <h2>Save your favorites easily and always have <br/> something to watch.</h2>
+                                </Container>
+
+                    </Container>
                 </Container>
                
            </div>
