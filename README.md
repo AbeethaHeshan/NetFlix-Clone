@@ -1,8 +1,8 @@
  
  <p align="center" width="100%">
-    ![](https://github.com/AbeethaHeshan/NetFlix-Clone/blob/master/netflix-clone/src/assets/Git_REadme/one.gif)
+     <img src="https://github.com/AbeethaHeshan/NetFlix-Clone/blob/master/netflix-clone/src/assets/Git_REadme/one.gif">
 </p>
  
  
  
-
+ ![](https://github.com/AbeethaHeshan/NetFlix-Clone/blob/master/netflix-clone/src/assets/Git_REadme/one.gif)
