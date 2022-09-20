@@ -10,7 +10,7 @@
      background-position: center;
      background-color: rgba(0, 0, 0, 0.932);
      background-image: linear-gradient(0deg,rgb(0, 0, 0) 0,transparent 60%,#000000b8),url('../../assets/images/banner.jpg') ;
-      
+     border-bottom: 8px solid #343131;  
     }
 
 .top{
@@ -95,3 +95,57 @@
      margin: auto;
      background-color: #00000083;
 }
+
+
+
+/* viewpport Two */
+
+.Welcome_viewport_Two{
+        position: relative;
+        background-color: black;
+}
+.wrap_Container_Viewport_Two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    column-gap: 100px;
+    border-bottom:10px  solid #343131;  ;
+}
+.view_port_Two_Text > h1 {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.view_port_Two_Text > h2 {
+    color: #fff;
+    font-weight: 500;
+}
+.view_port_Two_Animation > img{
+    position: relative;
+    z-index: 1;
+}
+.setAnimation{
+     
+    position: absolute;
+    right: 0;
+    top: -15px;
+    left: 0;
+    bottom: 0;
+    width: 361.3px;
+    margin: auto;
+    
+}
+
+.animation_con{
+    position: relative;
+    width: 500px;
+     
+}
+

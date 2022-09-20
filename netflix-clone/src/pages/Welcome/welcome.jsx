@@ -4,7 +4,8 @@ import NetFlixImage from '../../assets/images/netflix.png'
 import './welcome.css'
 import { Container } from "../../components/common/container/contatiner";
 import TextField from '@mui/material/TextField';
-import { width } from "@mui/system";
+import TV from '../../assets/images/tv.png'
+
 
 
 export  const Welcome = () => {
@@ -37,9 +38,37 @@ export  const Welcome = () => {
                            </Button>
 
                         </form>
-                         
                     </Container>
                 </Container>
+
+
+                <Container className="Welcome_viewport_Two">
+
+                      
+                      <Container className="wrap_Container_Viewport_Two"> 
+                        {/* text */}
+                        <Container className="view_port_Two_Text">
+                             <h1>Enjoy on your TV.</h1>  
+                             <h2>Watch on Smart TVs, Playstation, Xbox,<br/> Chromecast, Apple TV, Blu-ray players,<br/> and more.</h2>   
+                        </Container>
+
+                         {/* animation */}
+                        <Container className="view_port_Two_Animation">
+                            <Container className="animation_con">
+
+                                <img src={TV} alt="tv" width="500" />  
+                                <video className="setAnimation"  loop="true" autoplay="autoplay" controls="false" muted>
+                                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
+                                </video>
+
+                            </Container>
+                           
+                        </Container>
+                             
+                      </Container>   
+
+                </Container>
+               
            </div>
        );
 }
