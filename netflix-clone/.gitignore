@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+
+#vedio
+.mp4
+
 # testing
 /coverage
 
