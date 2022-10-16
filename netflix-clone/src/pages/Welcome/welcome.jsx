@@ -20,7 +20,7 @@ export  const Welcome = () => {
 
                     <Container className="middle">
                         <div className="title">
-                          <h1>Unlimited movies, TV  <br/> shows , and more.</h1>   
+                          <h1>Unlimited movies, TV  shows , and more.</h1>   
                         </div>
                           <h2>Watch anywhere. Cancel anytime.</h2>
                           <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
@@ -33,7 +33,7 @@ export  const Welcome = () => {
                                 variant="filled"
                             />
                          
-                           <Button variant="contained" size="medium" width="212" className="GetStarted" style={{backgroundColor: '#e50914',textTransform: 'none',fontWeight: "400" , width:"212px" , fontSize:"1.6rem"}}>
+                           <Button  variant="contained" size="medium" width="212" className="GetStarted" style={{backgroundColor: '#e50914',textTransform: 'none',fontWeight: "400" , width:"212px" , fontSize:"1.6rem"}}>
                             Get Started
                            </Button>
 
@@ -49,7 +49,7 @@ export  const Welcome = () => {
                         {/* text */}
                         <Container className="view_port_Two_Text">
                              <h1>Enjoy on your TV.</h1>  
-                             <h2>Watch on Smart TVs, Playstation, Xbox,<br/> Chromecast, Apple TV, Blu-ray players,<br/> and more.</h2>   
+                             <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>   
                         </Container>
 
                          {/* animation */}
@@ -81,11 +81,21 @@ export  const Welcome = () => {
                                 </Container>
 
                                 <Container className="view_port_Two_Text">
-                                         <h1>Download your shows <br/> to watch offline.</h1>
-                                         <h2>Save your favorites easily and always have <br/> something to watch.</h2>
+                                         <h1>Download your shows  to watch offline.</h1>
+                                         <h2>Save your favorites easily and always have  something to watch.</h2>
                                 </Container>
 
                     </Container>
+                </Container>
+
+
+                <Container className="Welcome_viewport_Four">
+                          <Container className="view_port_three_Text">
+                                    <h1>Watch everywere</h1> 
+                                    <h2> Stream unlimited movies and TV shows on <br/> Your phone,tablet,laptop, and TV</h2>  
+                          </Container>
+
+
                 </Container>
                
            </div>

@@ -46,7 +46,6 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 950px;
     height: 200px;
     text-align: center;
 }
@@ -156,4 +155,729 @@
 .Welcome_viewport_Three{
     position: relative;
     background-color: black;
+}
+
+
+
+
+@media  (max-device-width: 375px){
+
+    /* view port one */
+   .Welcome_viewport_One{
+          height: 600px ;
+   }
+
+    .title >h1{
+        font-size: 2.0rem;
+        position: relative;
+        top: -22px;
+    }
+
+    .top{ 
+        top: 15px;
+    }
+
+    .top > img {
+        width: 80px;
+        height: 30px;
+        left: 18px;
+    }
+
+    .signIn{
+         right: 18px;
+   }
+   
+   .middle >h2{
+         padding: 12px;
+        font-size: 19px;
+        position: relative;
+         top:-20px;
+        font-weight: bold;
+   }
+
+   .form{
+      flex-wrap:wrap;
+      row-gap: 40px;
+   }
+
+    .Email{
+        width: 300px;
+        border-radius: 5px;
+    }
+
+
+    .GetStarted{
+        
+         width:  157px  !important;
+         font-size: 1.3rem  !important;
+         border-radius: 0;
+
+    }
+
+    .middle >h3 {
+
+        padding-bottom: 0;
+
+    }
+
+
+    /* view port Two*/
+    .view_port_Two_Text > h1{
+        font-size: 1.8rem;
+        text-align: center;
+    
+    }
+    .view_port_Two_Text > h2{
+         font-size: 1.2rem;
+         text-align: center;
+         font-weight: 400;
+         padding: 13px;
+    }
+
+    .middle > h3 {
+       margin: 12px;
+    }
+
+    .wrap_Container_Viewport_Two{
+                  padding: 20px;
+    }
+    .view_port_Two_Animation{
+        width: 300px;
+    }
+
+    .animation_con > img {
+        width: 300px;
+        position: relative;
+        z-index: 10;  
+    }
+    .animation_con  {
+
+        width: 300px;
+       
+    }
+    .setAnimation{
+       
+        right: 4px;
+        top: -14px;
+        left: 3px;
+        width: 215.3px;
+    
+    }
+
+
+    /* view port threee*/
+    .Image_Con > img {
+          width:280px;
+    }
+     .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
+            flex-direction: column-reverse;
+     }
+
+     
+
+} 
+
+
+@media  (min-device-width: 376px) and (max-device-width: 425px){
+                /* view port one */
+            .Welcome_viewport_One{
+                height: 600px ;
+            }
+
+            .title >h1{
+            padding: 12px;
+            font-size: 2.0rem;
+            position: relative;
+            top: -22px;
+            }
+
+            .top{ 
+            top: 15px;
+            }
+
+            .top > img {
+            width: 80px;
+            height: 30px;
+            left: 18px;
+            }
+
+            .signIn{
+            right: 18px;
+            }
+
+            .middle >h2{
+            font-size: 19px;
+            position: relative;
+            top:-20px;
+            font-weight: bold;
+            }
+
+            .form{
+            flex-wrap:wrap;
+            row-gap: 40px;
+            }
+
+            .Email{
+            width: 300px;
+            border-radius: 5px;
+            }
+
+
+            .GetStarted{
+            
+            width:  157px  !important;
+            font-size: 1.3rem  !important;
+            border-radius: 0;
+
+            }
+
+            .middle >h3 {
+
+                font-size: 1.24rem;
+                padding-left: 40px;
+                padding-right: 40px;
+                margin: 10px;
+
+            }
+
+
+            /* view port Two*/
+            .view_port_Two_Text > h1{
+            font-size: 1.8rem;
+            text-align: center;
+
+            }
+            .view_port_Two_Text > h2{
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 400;
+            }
+
+            .wrap_Container_Viewport_Two{
+                        padding: 20px;
+            }
+            .view_port_Two_Animation{
+            width: 300px;
+            }
+
+            .animation_con > img {
+            width: 300px;
+            position: relative;
+            z-index: 10;  
+            }
+            .animation_con  {
+
+            width: 300px;
+            
+            }
+            .setAnimation{
+            
+            right: 4px;
+            top: -14px;
+            left: 3px;
+            width: 215.3px;
+
+            }
+
+
+            /* view port threee*/
+            .Image_Con > img {
+                width:280px;
+            }
+            .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
+                flex-direction: column-reverse;
+            }
+
+}  
+
+
+
+@media  (min-device-width: 426px) and (max-device-width: 560px) {
+                   /* view port one */
+                   .Welcome_viewport_One{
+                    height: 600px ;
+                }
+    
+                .middle{
+                         top: -97px;
+                }
+
+                .title >h1{
+                    padding: 12px;
+                    font-size: 2.0rem;
+                    position: relative;
+                    top: -22px;
+                }
+    
+                .top{ 
+                    top: 11px;
+                }
+    
+                .top > img {
+                        width: 80px;
+                        height: 30px;
+                        left: 18px;
+                }
+    
+                .signIn{
+                     right: 18px;
+                }
+    
+                .middle >h2{
+                        font-size: 19px;
+                        position: relative;
+                        top:-20px;
+                        font-weight: bold;
+                }
+    
+                .form{
+                flex-wrap:wrap;
+                row-gap: 30px;
+                }
+    
+                .Email{
+                width: 400px;
+                border-radius: 5px;     
+                }
+    
+    
+                .GetStarted{
+                
+                width:  157px  !important;
+                font-size: 1.3rem  !important;
+                border-radius: 0;
+    
+                }
+    
+                .middle >h3 {
+                    font-size: 1.24rem;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    margin: 10px;
+    
+                }
+    
+    
+                /* view port Two*/
+                .view_port_Two_Text > h1{
+                font-size: 1.8rem;
+                text-align: center;
+    
+                }
+                .view_port_Two_Text > h2{
+                font-size: 1.2rem;
+                text-align: center;
+                font-weight: 400;
+                }
+    
+                .wrap_Container_Viewport_Two{
+                            padding: 20px;
+                }
+                .view_port_Two_Animation{
+                width: 357px;
+                }
+    
+                .animation_con > img {
+                width: 402px;
+                position: relative;
+                z-index: 10;  
+                }
+                .animation_con  {
+    
+                   width: 357px;
+                
+                }
+                .setAnimation{
+                
+                    right: 0;
+                    top: -11px;
+                    left: 41px;
+                    width: 288px;
+
+                }
+    
+    
+                /* view port threee*/
+                .Image_Con > img {
+                    
+                        width: 425px;
+                        top: -15px;
+                        position: relative;
+
+                }
+                .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
+                    flex-direction: column-reverse;
+                }
+    
+            
+} 
+
+
+
+@media  (min-device-width: 561px) and (max-device-width: 768px) {
+         /* view port one */
+         .Welcome_viewport_One{
+            height: 735px ;
+        }
+
+        .middle{
+                 top: -97px;
+        }
+
+        .title >h1{
+            
+            font-size: 3.0rem;
+          
+        }
+
+        .top{ 
+            top: 11px;
+        }
+
+        .top > img {
+                width: 80px;
+                height: 30px;
+                left: 18px;
+        }
+
+        .signIn{
+             right: 18px;
+        }
+
+        .middle >h2{
+                font-size: 19px;
+                position: relative;
+                top:-20px;
+                font-weight: bold;
+        }
+
+        .form{
+        flex-wrap:wrap;
+        row-gap: 30px;
+        }
+
+        .Email{
+        width:540px;
+        border-radius: 5px;
+        }
+
+
+        .GetStarted{
+        
+        width:  157px  !important;
+        font-size: 1.3rem  !important;
+        border-radius: 0;
+
+        }
+
+        .middle >h3 {
+            font-size: 1.24rem;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin: 10px;
+
+        }
+
+
+        /* view port Two*/
+        .view_port_Two_Text > h1{
+        font-size: 2.3rem;
+        text-align: center;
+
+        }
+        .view_port_Two_Text > h2{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 400;
+        }
+
+        .wrap_Container_Viewport_Two{
+                    padding: 20px;
+        }
+        .view_port_Two_Animation{
+        width: 357px;
+        }
+
+        .animation_con > img {
+        width: 357px;
+        position: relative;
+        z-index: 10;  
+        }
+        .animation_con  {
+
+           width: 357px;
+        
+        }
+        .setAnimation{
+        
+            right: 0;
+            top: -13px;
+            left: 0px;
+            width: 256px;
+
+        }
+
+
+        /* view port threee*/
+        .Image_Con > img {
+            
+                width: 425px;
+                top: -15px;
+                position: relative;
+
+        }
+        .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
+            flex-direction: column-reverse;
+        }
+
+} 
+
+@media  (min-device-width: 768px) and (max-device-width: 1024px) {
+
+            /* view port one */
+         .Welcome_viewport_One{
+            height: 735px ;
+        }
+
+        .middle{
+                 top: -97px;
+        }
+
+        .title >h1{
+            
+            font-size: 3.0rem;
+          
+        }
+
+        .top{ 
+            top: 11px;
+        }
+
+        .top > img {
+                width: 80px;
+                height: 30px;
+                left: 18px;
+        }
+
+        .signIn{
+             right: 18px;
+        }
+
+        .middle >h2{
+                font-size: 19px;
+                position: relative;
+                top:-20px;
+                font-weight: bold;
+        }
+
+        .form{
+        flex-wrap:wrap;
+        row-gap: 30px;
+        }
+
+        .Email{
+        width:540px;
+        border-radius: 5px;
+        }
+
+
+        .GetStarted{
+        
+        width:  157px  !important;
+        font-size: 1.3rem  !important;
+        border-radius: 0;
+
+        }
+
+        .middle >h3 {
+            font-size: 1.24rem;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin: 10px;
+
+        }
+
+
+        /* view port Two*/
+        .view_port_Two_Text > h1{
+        font-size: 2.3rem;
+        text-align: center;
+
+        }
+        .view_port_Two_Text > h2{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 400;
+        }
+
+        .wrap_Container_Viewport_Two{
+                    padding: 20px;
+        }
+        .view_port_Two_Animation{
+        width: 550px;
+        }
+
+        .animation_con > img {
+        width: 550px;
+        position: relative;
+        z-index: 10;  
+        }
+        .animation_con  {
+
+           width: 550px;
+        
+        }
+        .setAnimation{
+        
+            right: 3px;
+            top: -13px;
+            left: 0px;
+            width: 400px;
+
+        }
+
+
+        /* view port threee*/
+        .Image_Con > img {
+            
+                width: 590px;
+                top: -15px;
+                position: relative;
+
+        }
+        .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
+            flex-direction: column-reverse;
+            flex-wrap: nowrap;
+        }
+        .view_port_Two_Text > h1{
+            text-align:center;
+        }
+        
+
+
+}
+
+@media  (min-device-width: 1025px) {
+      
+      /* view port one */
+      .Welcome_viewport_One{
+        height: 735px ;
+    }
+
+    .middle{
+             top: -97px;
+    }
+
+    .title >h1{
+        
+        font-size: 3.0rem;
+      
+    }
+
+    .top{ 
+        top: 11px;
+    }
+
+    .top > img {
+            width: 80px;
+            height: 30px;
+            left: 18px;
+    }
+
+    .signIn{
+         right: 18px;
+    }
+
+    .middle >h2{
+            font-size: 19px;
+            position: relative;
+            top:-20px;
+            font-weight: bold;
+    }
+
+    .form{
+    flex-wrap:wrap;
+    row-gap: 30px;
+    }
+
+    .Email{
+    width:540px;
+    border-radius: 5px;
+    }
+
+
+    .GetStarted{
+    
+    width:  157px  !important;
+    font-size: 1.3rem  !important;
+    border-radius: 0;
+
+    }
+
+    .middle >h3 {
+        font-size: 1.24rem;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 10px;
+
+    }
+
+
+    /* view port Two*/
+    .view_port_Two_Text > h1{
+    font-size: 2.6rem;
+    text-align: center;
+
+    }
+    .view_port_Two_Text > h2{
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: 400;
+    }
+
+    .wrap_Container_Viewport_Two{
+        flex-wrap:nowrap ;
+                padding: 20px;
+    }
+    .view_port_Two_Animation{
+    width: 550px;
+    }
+
+    .animation_con > img {
+    width: 550px;
+    position: relative;
+    z-index: 10;  
+    }
+    .animation_con  {
+
+       width: 550px;
+    
+    }
+    .setAnimation{
+    
+        right: 3px;
+        top: -13px;
+        left: 0px;
+        width: 400px;
+
+    }
+
+
+    /* view port threee*/
+    .Image_Con > img {
+        
+            width: 590px;
+            top: -15px;
+            position: relative;
+
+    }
+    .Welcome_viewport_Three > .wrap_Container_Viewport_Two {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .view_port_Two_Text > h1{
+        text-align:left;
+    }
+    
+       
 }
