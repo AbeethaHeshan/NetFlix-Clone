@@ -56,11 +56,10 @@ export  const Welcome = () => {
                         <Container className="view_port_Two_Animation">
                             <Container className="animation_con">
 
-                                <img src={TV} alt="tv" width="500" />  
-                                <video className="setAnimation"  loop="true" autoplay="autoplay" controls="false" muted>
-                                    <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4" />
+                                <img src={TV}    alt="tv" width="500" />  
+                                <video controls autoPlay loop muted  className="setAnimation"   >
+                                    <source src=   {require("../../assets/aa.mp4")} type="video/mp4" />
                                 </video>
-
                             </Container>
                            
                         </Container>

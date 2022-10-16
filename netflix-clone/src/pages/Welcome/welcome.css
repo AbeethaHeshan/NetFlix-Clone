@@ -614,7 +614,7 @@
             top: -13px;
             left: 0px;
             width: 256px;
-
+            height: 145px;
         }
 
 
@@ -730,9 +730,10 @@
         .setAnimation{
         
             right: 3px;
-            top: -13px;
+            top: -15px;
             left: 0px;
             width: 400px;
+            height: 228px;
 
         }
 
@@ -770,8 +771,8 @@
 
     .title >h1{
         
-        font-size: 3.0rem;
-      
+        font-size: 4.2rem;
+       
     }
 
     .top{ 
@@ -837,7 +838,7 @@
 
     .wrap_Container_Viewport_Two{
         flex-wrap:nowrap ;
-                padding: 20px;
+       padding: 71px;
     }
     .view_port_Two_Animation{
     width: 550px;
@@ -856,9 +857,9 @@
     .setAnimation{
     
         right: 3px;
-        top: -13px;
+        top: -39px;
         left: 0px;
-        width: 400px;
+        width: 406px;
 
     }
 
