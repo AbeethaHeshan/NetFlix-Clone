@@ -27,7 +27,7 @@
      position: relative;
      background-color: #e50914;
      right: 40px;
-     float: right;
+     float: right; 
      font-size: 1rem;
      font-weight: 400;
      line-height: normal;
@@ -112,7 +112,7 @@
     padding-bottom: 20px;
     padding-left: 45px;
     padding-right: 45px;
-    column-gap: 100px;
+    column-gap: 30px;
     border-bottom:10px  solid #343131; 
     flex-wrap: wrap;
 }
@@ -156,6 +156,78 @@
     position: relative;
     background-color: black;
 }
+
+.movie_Card{
+    display: flex;
+    position: relative;
+    width: 365px;
+    height:80px;
+    border: 21px solid #726969;
+    background-color: black;
+    border-width: 2px;
+    border-radius: 14px;
+    left: 3px;
+    bottom: 154px;
+    right: 553px;
+    margin: auto;
+    padding: 9px;
+    justify-content: space-between;
+
+    flex-direction: row;
+}
+.text_for_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text_for_card > h3 {
+    color: white; 
+    margin: 0;  
+}
+
+.text_for_card > h4 {
+    color: #0071eb;
+    margin: 0;
+}
+.movie_Card > img{
+    height:82px;
+}
+
+
+
+/*view port four*/
+.Welcome_viewport_Four{
+    position: relative;
+    border-bottom: 10px solid #806d6d;
+    background-color: black;
+    height: 250px;
+}
+
+.view_port_three_Text > h1 {
+     margin: 0;
+     margin-bottom: 20px;
+     color: rgb(255, 255, 255);
+     font-size: 3.2rem;
+}
+.view_port_three_Text > h2 {
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+}
+.view_port_three_Text{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top:0;
+    bottom: 0;
+    left: 150px;
+    margin: auto;
+
+}
+
 
 
 
@@ -273,8 +345,57 @@
             flex-direction: column-reverse;
      }
 
+     .movie_Card{
+       
+        width: 245px;
+        height: 50px;
+        bottom: 71px;
+    }
+    .text_for_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .text_for_card > h3 {
+       font-size: 15px;
+    }
+    
+    .text_for_card > h4 {
+        font-size: smaller;
+    }
+    .movie_Card > img{
+        height: 52px;
+    }
+    
      
 
+    .view_port_three_Text{
+       
+            height: 254px;
+            height: 254px;
+            left: 0;
+            right: 0;
+    }
+
+    .view_port_three_Text > h1{
+        
+        position: relative;
+        font-size: 1.8rem;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 22px;
+
+     }
+     .view_port_three_Text > h2 {
+            position: relative;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 400;
+            padding: 13px;
+            top: 30px;
+     }
 } 
 
 
@@ -387,6 +508,59 @@
             .Welcome_viewport_Three > .wrap_Container_Viewport_Two{
                 flex-direction: column-reverse;
             }
+
+            .movie_Card{
+       
+                width: 245px;
+                height: 50px;
+                bottom: 71px;
+            }
+            .text_for_card{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .text_for_card > h3 {
+               font-size: 15px;
+            }
+            
+            .text_for_card > h4 {
+                font-size: smaller;
+            }
+            .movie_Card > img{
+                height: 52px;
+            }
+            
+
+
+            .view_port_three_Text{
+       
+                height: 254px;
+                height: 254px;
+                left: 0;
+                right: 0;
+        }
+    
+        .view_port_three_Text > h1{
+            
+            position: relative;
+            font-size: 1.8rem;
+            text-align: center;
+            left: 0px;
+            right: 0px;
+            top: 22px;
+    
+         }
+         .view_port_three_Text > h2 {
+                position: relative;
+                font-size: 1.2rem;
+                text-align: center;
+                font-weight: 400;
+                padding: 13px;
+                top: 30px;
+         }
+             
 
 }  
 
@@ -509,6 +683,58 @@
                     flex-direction: column-reverse;
                 }
     
+
+                .movie_Card{
+       
+                    width: 303px;
+                    height: 61px;
+                    bottom: 111px;
+                }
+                .text_for_card{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                }
+                
+                .text_for_card > h3 {
+                   font-size: 20px;
+                }
+                
+                .text_for_card > h4 {
+                    font-size: smaller;
+                }
+                .movie_Card > img{
+                    height: 65px;
+                }
+                
+
+
+                .view_port_three_Text{
+       
+                    height: 254px;
+                    height: 254px;
+                    left: 0;
+                    right: 0;
+            }
+        
+            .view_port_three_Text > h1{
+                
+                position: relative;
+                font-size: 1.8rem;
+                text-align: center;
+                left: 0px;
+                right: 0px;
+                top: 22px;
+        
+             }
+             .view_port_three_Text > h2 {
+                    position: relative;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    font-weight: 400;
+                    padding: 13px;
+                    top: 30px;
+             }
             
 } 
 
@@ -630,6 +856,33 @@
             flex-direction: column-reverse;
         }
 
+
+        .view_port_three_Text{
+       
+            height: 254px;
+            height: 254px;
+            left: 0;
+            right: 0;
+    }
+
+    .view_port_three_Text > h1{
+        
+        position: relative;
+        font-size:2.3rem;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 22px;
+
+     }
+     .view_port_three_Text > h2 {
+            position: relative;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 400;
+            padding: 13px;
+            top: 30px;
+     }
 } 
 
 @media  (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -756,6 +1009,33 @@
         
 
 
+        .view_port_three_Text{
+       
+            height: 254px;
+            height: 254px;
+            left: 0;
+            right: 0;
+    }
+
+    .view_port_three_Text > h1{
+        
+        position: relative;
+        font-size:2.3rem;
+        text-align: center;
+        left: 0px;
+        right: 0px;
+        top: 22px;
+
+     }
+     .view_port_three_Text > h2 {
+            position: relative;
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: 400;
+            padding: 13px;
+            top: 30px;
+     }
+
 }
 
 @media  (min-device-width: 1025px) {
@@ -780,8 +1060,8 @@
     }
 
     .top > img {
-            width: 80px;
-            height: 30px;
+            width: 150px;
+            height: 50px;
             left: 18px;
     }
 
@@ -880,5 +1160,31 @@
         text-align:left;
     }
     
+    .view_port_three_Text{
        
+        height: 254px;
+        height: 254px;
+        left: 0;
+        right: 0;
+}
+
+.view_port_three_Text > h1{
+    
+    position: relative;
+    font-size:2.6rem;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    top: 22px;
+
+ }
+ .view_port_three_Text > h2 {
+        position: relative;
+        font-size: 1.6rem;
+        text-align: center;
+        font-weight: 400;
+        padding: 13px;
+        top: 30px;
+ }
+
 }

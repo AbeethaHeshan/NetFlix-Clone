@@ -20,7 +20,7 @@ export  const Welcome = () => {
 
                     <Container className="middle">
                         <div className="title">
-                          <h1>Unlimited movies, TV  shows , and more.</h1>   
+                          <h1>Unlimited movies, <br/>TV  shows , and more.</h1>   
                         </div>
                           <h2>Watch anywhere. Cancel anytime.</h2>
                           <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
@@ -59,6 +59,7 @@ export  const Welcome = () => {
                                 <img src={TV}    alt="tv" width="500" />  
                                 <video controls autoPlay loop muted  className="setAnimation"   >
                                     <source src=   {require("../../assets/aa.mp4")} type="video/mp4" />
+                                    
                                 </video>
                             </Container>
                            
@@ -75,8 +76,19 @@ export  const Welcome = () => {
                     <Container className="wrap_Container_Viewport_Two"> 
                                 <Container className="Image_Con">
                                     
-                                        <img src={Mobile} alt="movile"/>
+                                         <img src={Mobile} alt="movile"/>
+                                         <Container className="movie_Card">
+                                              <img src= {require ("../../assets/boxshot.png")} /> 
+                                               <Container className="text_for_card">
+
+                                                    <h3>Stranger Things</h3> 
+                                                    <h4>Downloading...</h4>
                                             
+                                               </Container>
+                                               
+                                               <img src={require("../../assets/download-icon.gif")}/>
+                                            
+                                         </Container>    
                                 </Container>
 
                                 <Container className="view_port_Two_Text">
@@ -91,10 +103,27 @@ export  const Welcome = () => {
                 <Container className="Welcome_viewport_Four">
                           <Container className="view_port_three_Text">
                                     <h1>Watch everywere</h1> 
-                                    <h2> Stream unlimited movies and TV shows on <br/> Your phone,tablet,laptop, and TV</h2>  
+                                    <h2> Stream unlimited movies and TV shows on  Your phone,tablet,laptop, and TV</h2>  
                           </Container>
+                </Container>
 
 
+
+                <Container className="Welcome_viewport_Three">
+
+                    <Container className="wrap_Container_Viewport_Two"> 
+                                <Container className="Image_Con">
+                                    
+                                         <img src={require("../../assets/images/kids.png")} alt="movile"/>
+                                         
+                                </Container>
+
+                                <Container className="view_port_Two_Text">
+                                         <h1>Create profiles for kids.</h1>
+                                         <h2>Send kids on adventures with thrir favourite characters in space made just for them-- free with your membership</h2>
+                                </Container>
+
+                    </Container>
                 </Container>
                
            </div>
